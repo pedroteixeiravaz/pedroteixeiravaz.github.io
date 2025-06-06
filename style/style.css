@@ -11,6 +11,8 @@ header {
   text-align: center;
   padding: 15px;
   font-size: 18px;
+  max-width: 1920px;
+  min-width: 370px;
 }
 
 header h1 {
