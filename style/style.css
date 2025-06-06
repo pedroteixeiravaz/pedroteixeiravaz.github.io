@@ -27,7 +27,7 @@ header p {
   padding-bottom: 64px;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -40,14 +40,10 @@ header nav {
  padding-bottom: 10px;
 }
 
-header nav a {
+header nav a:hover {
   text-decoration: none;
   background-color: rgb(255, 255, 255);
   color: rgb(31, 132, 255);
   padding: 8px;
   border-radius: 5px;
-}
-
-nav a:active {
-  color: rgb(0, 0, 0);
-}
+} 
