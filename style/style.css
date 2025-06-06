@@ -26,3 +26,28 @@ header p {
   font-size: 16px;
   padding-bottom: 64px;
 }
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+header nav {
+ text-align: left;
+ margin: 4px;
+ padding-bottom: 10px;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 132, 255);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+nav a:active {
+  color: rgb(0, 0, 0);
+}
