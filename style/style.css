@@ -66,12 +66,12 @@ main div.quadrado {
   text-align: center
 }
 
-main div.quadrado#q1 h2 {
+main div.quadrado#q1 h1 {
   text-align: justify;
   color: rgba(255, 0, 170, 0.532);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17pt;
-  margin: 5px;
+  margin: 0px;
 }
 
 main div.quadrado#q1 p {
@@ -81,4 +81,21 @@ main div.quadrado#q1 p {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+main div.quadrado#q2 h1 {
+  text-align: justify;
+  color: rgba(255, 50, 50, 0.572);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17pt;
+  margin: 0px;
+}
+
+main div.quadrado#q2 p {
+  text-align: center;
+  color: rgba(0, 26, 255, 0.308);
+  font-size: 27pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
