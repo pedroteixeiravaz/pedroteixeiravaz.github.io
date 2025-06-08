@@ -51,7 +51,9 @@ header nav a:hover {
 main {
   max-width: 1920px;
   min-width: 366px;
-  margin: auto;
+  margin: 22px;
+  padding: 3px;
+  text-align: center;
 }
 
 main div.quadrado {
@@ -98,4 +100,32 @@ main div.quadrado#q2 p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main div.quadrado#q3 h1 {
+  text-align: justify;
+  color: rgba(9, 255, 0, 0.675);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17pt;
+  margin: 0px;
+}
 
+main div.quadrado#q3 p {
+  text-align: center;
+  color: rgba(255, 166, 0, 0.455);
+  font-size: 27pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main div.quadrado#q4 h1 {
+  text-align: justify;
+  color: rgba(255, 128, 0, 0.795);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+}
+
+main div.quadrado#q4 p {
+  text-align: center;
+  color: rgba(53, 211, 184, 0.702);
+  font-size: 27pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+}
